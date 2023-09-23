@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./script/script.js" defer></script>
+    <title>Anoop's Kitchen</title>
+</head>
+<body>
+    <header>
+        <h1>Anoop's Kitchen</h1>
+        <nav>
+            <ul>
+                <li><a href="#lunch-menu">Lunch Menu</a></li>
+                <li><a href="#dinner-menu">Dinner Menu</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#takeout">Takeout</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#language">Language</a></li>
+                <li><a href="#jobs">Job Openings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="lunch-menu">
+        <h2>Lunch Menu</h2>
+        <ul class="menu-list">
+            <li>
+                <span class="item-name">Chicken Tikka Masala</span>
+                <span class="item-price">$12.99</span>
+                <p class="item-description">Grilled chicken served in a creamy tomato sauce.</p>
+            </li>
+            <li>
+                <span class="item-name">Vegetable Biryani</span>
+                <span class="item-price">$10.99</span>
+                <p class="item-description">A flavorful rice dish with mixed vegetables.</p>
+            </li>
+            
+        </ul>
+    </section>
+
+    <section id="dinner-menu">
+        <h2>Dinner Menu</h2>
+        <ul class="menu-list">
+            <li>
+                <span class="item-name">Lamb Rogan Josh</span>
+                <span class="item-price">$14.99</span>
+                <p class="item-description">Tender pieces of lamb cooked in a rich, aromatic gravy.</p>
+            </li>
+            <li>
+                <span class="item-name">Paneer Butter Masala</span>
+                <span class="item-price">$11.99</span>
+                <p class="item-description">Homemade cottage cheese in a creamy tomato sauce.</p>
+            </li>
+           
+        </ul>
+    </section>
+
+    <section id="reservation">
+    <h2>Reservation</h2>
+    <form id="reservation-form">
+        <label for="date">Date:</label>
+        <input type="date" id="date" required><br><br>
+
+        <label for="time">Time:</label>
+        <input type="time" id="time" required><br><br>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" min="1" required><br><br>
+
+        <button type="submit">Submit Reservation</button>
+    </form>
+    <p id="reservation-result"></p>
+</section>
+
+<section id="language">
+    <h2>Language</h2>
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('fr')">French</button>
+</section>
+
+    <footer>
+        <p>&copy; 2023 Anoop's Kitchen</p>
+    </footer>
+</body>
+</html>

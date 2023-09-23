@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #e74c3c; /* Red header background color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Menu Styles */
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+}
+
+.item-name {
+    font-weight: bold;
+}
+
+.item-price {
+    float: right;
+    color: #e74c3c; /* Red color for price */
+}
+
+.item-description {
+    margin-top: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark footer background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
